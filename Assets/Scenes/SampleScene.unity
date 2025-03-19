@@ -508,11 +508,7 @@ MonoBehaviour:
   runSpeed: 20
   rotationSpeed: 10
   animator: {fileID: 8422892627101198990}
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  groundCheckDistance: 0.3
-  jumpForce: 5
+  jumpForce: 100
 --- !u!54 &1973360740
 Rigidbody:
   m_ObjectHideFlags: 0

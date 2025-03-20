@@ -9,7 +9,7 @@ public class RoomGenerator : MonoBehaviour
     [SerializeField] private int treeDegree = 4;        // 최대 4방향 확장 (상하좌우)
     [SerializeField] private float margin = 10f;        // 방 사이의 간격 (복도 및 door 크기로 사용)
     [SerializeField] private int maxDepth = 3;          // 최대 재귀 깊이
-    [SerializeField] private int roomSize = 50;         // 방의 크기 (50)
+    [SerializeField] private int roomSize = 60;         // 방의 크기 (60)
 
     // 생성된 방의 그리드 좌표와 연결 정보를 저장
     public static HashSet<Vector2Int> RoomPositions = new HashSet<Vector2Int>();

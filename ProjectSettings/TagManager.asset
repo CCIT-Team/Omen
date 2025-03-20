@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CorridorWall
   - Ground
+  - Wall
   layers:
   - Default
   - TransparentFX

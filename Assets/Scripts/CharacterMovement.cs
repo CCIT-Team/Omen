@@ -10,7 +10,7 @@ public class CharacterMovement : MonoBehaviour
     private float currentSpeed; // 현재 이동 속도
 
     //점프
-    public float jumpForce = 10f;
+    public float jumpForce = 3900f;
     private bool isGrounded;
     private Rigidbody rb;
 
@@ -66,7 +66,7 @@ public class CharacterMovement : MonoBehaviour
 
         if (!isGrounded) // 공중에 있을 때만 추가 중력 적용
         {
-            rb.velocity += Vector3.down * 10f * Time.deltaTime; // 10f 값을 더 높이면 더 빨리 떨어짐
+            rb.velocity += Vector3.down * 80f * Time.deltaTime; // 10f 값을 더 높이면 더 빨리 떨어짐
         }
     }
 

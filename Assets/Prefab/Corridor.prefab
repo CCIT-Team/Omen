@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3634839452190741250}
   - component: {fileID: -7387875440617222979}
   - component: {fileID: 3832150766451382395}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Corridor
   m_TagString: Ground
   m_Icon: {fileID: 0}
